@@ -264,6 +264,11 @@ h2{
     }
     .overlay{
         width: 300px;
+        height: 300px;
+    }
+    .button1{
+        font-weight: 150;
+        padding:0.20em .75em;
     }
 }
 @media all and (max-width: 350px){
@@ -279,12 +284,20 @@ h2{
     .project-img{
         width: 250px;
     }
-    .overlay{
-        width: 250px;
-    }
     .social-icons{
         margin-top: 50px;
         display: flex;
+    }
+    .overlay{
+        width: 250px;
+        height: 250px;
+    }
+    .button1{
+        font-size: 15px;
+        padding:0.10em .40em;
+    }
+    .buttons{
+        gap: 5px;
     }
 }
 @media all and (max-width: 300px){
@@ -296,5 +309,10 @@ h2{
     }
     .overlay{
         width: 200px;
+        height: 200px;
+    }
+    .button1{
+        font-size: 12px;
+        padding:0.5em .3em;
     }
 }
